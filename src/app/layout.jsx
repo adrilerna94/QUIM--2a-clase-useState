@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Typography>BIENVENIDO QUIM</Typography>
+        <Typography> TU PUEDES QUIM</Typography>
         {children}
       </body>
     </html>
