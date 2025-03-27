@@ -1,6 +1,5 @@
-import { Button, Card, CardBody, Typography } from "@/components/ui";
-import { WelcomeMessage } from "./welcome/page";
-import { FormPage } from "./contact/page";
+import {Card, CardBody, Typography } from "@/components/ui";
+
 
 export default function Home() {
   return (
@@ -8,7 +7,7 @@ export default function Home() {
       <Card className="w-full max-w-lg shadow-xl border border-gray-700 bg-gray-800">
         <CardBody className="text-center flex flex-col gap-4">
           <Typography variant="h1" color="amber" className="font-bold">
-            🚀 Bienvenidos a la Misión: Red Planet
+            🚀 Bienvenidos a la Misión: use State
           </Typography>
         </CardBody>
       </Card>
